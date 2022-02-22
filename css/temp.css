@@ -1,0 +1,18 @@
+.default_font {
+    font-size: 1em;
+    color: black;
+    text-align: left;
+    font-family: "Mulish";
+    font-weight: 400;
+    text-align: justify;
+}
+@media screen and (min-width: 700px) {
+    .modal-dialog{
+        width: 30vw !important;
+    }
+}
+@media screen and (max-width: 699px) {
+    .modal-dialog{
+        width: unset !important;
+    }
+}
